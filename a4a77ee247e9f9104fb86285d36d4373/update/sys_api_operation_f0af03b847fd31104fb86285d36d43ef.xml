@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation">
+    <sys_api_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_collection display_value="Rest trigger for flow id=445f833847fd31104fb86285d36d436a - v1">70af03b847fd31104fb86285d36d43ec</api_collection>
+        <api_request display_value="Generated Request for 445f833847fd31104fb86285d36d436a">ff492b3ce6717110d06552553d92c101</api_request>
+        <api_security_scheme/>
+        <deprecated>false</deprecated>
+        <description/>
+        <execute_asynchronously>true</execute_asynchronously>
+        <execution_record>445f833847fd31104fb86285d36d436a</execution_record>
+        <execution_type>sys_hub_flow</execution_type>
+        <http_method>post</http_method>
+        <name>POST /</name>
+        <operation_id/>
+        <origin>flow_designer</origin>
+        <path>/</path>
+        <sys_class_name>sys_api_operation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:09:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0af03b847fd31104fb86285d36d43ef</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>POST /</sys_name>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_api_operation_f0af03b847fd31104fb86285d36d43ef</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:01:12</sys_updated_on>
+    </sys_api_operation>
+</record_update>

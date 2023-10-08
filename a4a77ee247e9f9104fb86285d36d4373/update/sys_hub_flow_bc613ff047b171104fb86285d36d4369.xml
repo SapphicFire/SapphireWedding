@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=856000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>handle_song_suggestion</internal_name>
+        <label_cache>[{"name":"REST API - Asynchronous_1.body","label":"Trigger - REST API - Asynchronous➛Request Body","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD09f17bb4a7b17110aee0a6aaf5a9fe84","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.song","label":"Trigger - REST API - Asynchronous➛Body➛Song","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"REST API - Asynchronous_1.body.name","label":"Trigger - REST API - Asynchronous➛Body➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"REST API - Asynchronous_1.body.code","label":"Trigger - REST API - Asynchronous➛Body➛Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master_snapshot>aac2b73847b171104fb86285d36d4397</master_snapshot>
+        <name>Handle Song Suggestion</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>c3c2f73847b171104fb86285d36d439b</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:36:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc613ff047b171104fb86285d36d4369</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Handle Song Suggestion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_hub_flow_bc613ff047b171104fb86285d36d4369</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:49</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc613ff047b171104fb86285d36d4369"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bc613ff047b171104fb86285d36d4369"/>
+    <sys_rest_api_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_operation display_value="POST /">47c2f73847b171104fb86285d36d4393</api_operation>
+        <name/>
+        <roles_acl/>
+        <sys_class_name>sys_rest_api_trigger</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3c2f73847b171104fb86285d36d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:48</sys_updated_on>
+    </sys_rest_api_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=bc613ff047b171104fb86285d36d4369^sys_idNOT INcdf137f447b171104fb86285d36d433a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</flow>
+        <name>REST API - Asynchronous</name>
+        <remote_sys_id/>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>cdf137f447b171104fb86285d36d433a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:49</sys_updated_on>
+        <trigger_definition display_value="REST API - Asynchronous">77ad0b76c71000101666868cb8c2601d</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>rest_async</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cdf137f447b171104fb86285d36d433a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cdf137f447b171104fb86285d36d433a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>0df137f447b171104fb86285d36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <value>/api/x_688586_wedding/handle_song_suggestion</value>
+        <variable display_value="Base Path">3af53c10c7531010bd2f868cb8c2608b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cdf137f447b171104fb86285d36d433a</document_key>
+        <order>112</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>49f137f447b171104fb86285d36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Requires Authentication">2e397f5b0ffe1010b303f140ff767e36</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cdf137f447b171104fb86285d36d433a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>81f137f447b171104fb86285d36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">6b6fcc4bc71000101666868cb8c260a1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_77ad0b76c71000101666868cb8c2601d^id=cdf137f447b171104fb86285d36d433a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_77ad0b76c71000101666868cb8c2601d^id=cdf137f447b171104fb86285d36d433a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=bc613ff047b171104fb86285d36d4369"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=bc613ff047b171104fb86285d36d4369^sys_idNOT INb8613ff047b171104fb86285d36d436a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>bc613ff047b171104fb86285d36d4369</id>
+        <name>Handle Song Suggestion</name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:36:29</sys_created_on>
+        <sys_id>b8613ff047b171104fb86285d36d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:36:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b8613ff047b171104fb86285d36d436a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=bc613ff047b171104fb86285d36d4369^sys_idNOT IN05f1f3f447b171104fb86285d36d43e7,81f1f3f447b171104fb86285d36d43e0,81f1f3f447b171104fb86285d36d43e4,85f1f3f447b171104fb86285d36d43ea"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD85f17bb475b171101b693725845a2582,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>headers</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Headers</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</model>
+        <model_id>bc613ff047b171104fb86285d36d4369</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <next_element/>
+        <order>140</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>05f1f3f447b171104fb86285d36d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=05f1f3f447b171104fb86285d36d43e7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDc9f17bb4a7b17110d9930d75f58f447d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>path_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Path Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</model>
+        <model_id>bc613ff047b171104fb86285d36d4369</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <next_element/>
+        <order>120</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>81f1f3f447b171104fb86285d36d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81f1f3f447b171104fb86285d36d43e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD05f17bb4d5b171108bb0a058413feb80,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</model>
+        <model_id>bc613ff047b171104fb86285d36d4369</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <next_element/>
+        <order>130</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>81f1f3f447b171104fb86285d36d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81f1f3f447b171104fb86285d36d43e4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD09f17bb4a7b17110aee0a6aaf5a9fe84,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Body</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</model>
+        <model_id>bc613ff047b171104fb86285d36d4369</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>85f1f3f447b171104fb86285d36d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=85f1f3f447b171104fb86285d36d43ea"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bc613ff047b171104fb86285d36d4369^sys_idNOT IN56c2b73847b171104fb86285d36d4344,96c2b73847b171104fb86285d36d4355"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>56c2b73847b171104fb86285d36d4344</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:51:18</sys_updated_on>
+        <ui_id>c9ae8ade-da82-49af-b0b0-0c72bffca5a0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56c2b73847b171104fb86285d36d4344"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>56c2b73847b171104fb86285d36d4344</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>5ec2b73847b171104fb86285d36d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <value>x_688586_wedding_song_suggestions</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=56c2b73847b171104fb86285d36d4344"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>56c2b73847b171104fb86285d36d4344</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>16c2b73847b171104fb86285d36d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>56c2b73847b171104fb86285d36d4344</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>dac2b73847b171104fb86285d36d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>invite_code={{REST API - Asynchronous_1.body.code}}^name={{REST API - Asynchronous_1.body.name}}^song_details={{REST API - Asynchronous_1.body.song}}^payload={{REST API - Asynchronous_1.body}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=56c2b73847b171104fb86285d36d4344"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=56c2b73847b171104fb86285d36d4344"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</action_type>
+        <action_type_parent display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>96c2b73847b171104fb86285d36d4355</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:51:18</sys_updated_on>
+        <ui_id>0c7105c8-cc11-40a7-9564-614cf0623666</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=96c2b73847b171104fb86285d36d4355"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>96c2b73847b171104fb86285d36d4355</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>12c2b73847b171104fb86285d36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <value>-4079293163</value>
+        <variable display_value="Chat ID">d238d334473171104fb86285d36d4362</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>96c2b73847b171104fb86285d36d4355</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>5ec2b73847b171104fb86285d36d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <value>6371970326:AAFKjDJBUli8Zza6Z24zh5Q_rveaISg8wew</value>
+        <variable display_value="Bot Token">5638d334473171104fb86285d36d435e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>96c2b73847b171104fb86285d36d4355</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>9ac2b73847b171104fb86285d36d4357</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:45</sys_updated_on>
+        <value/>
+        <variable display_value="Parse mode">884c9f78473171104fb86285d36d4340</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=96c2b73847b171104fb86285d36d4355"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bot_token</field>
+        <id>96c2b73847b171104fb86285d36d4355</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>dec2b73847b171104fb86285d36d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>chat_id</field>
+        <id>96c2b73847b171104fb86285d36d4355</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>1ac2b73847b171104fb86285d36d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parse_mode</field>
+        <id>96c2b73847b171104fb86285d36d4355</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>56c2b73847b171104fb86285d36d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>96c2b73847b171104fb86285d36d4355</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:36</sys_created_on>
+        <sys_id>92c2b73847b171104fb86285d36d4357</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value>New song suggestion from {{REST API - Asynchronous_1.body.name}}:
+
+Song suggestion:
+{{REST API - Asynchronous_1.body.song}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=96c2b73847b171104fb86285d36d4355"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=96c2b73847b171104fb86285d36d4355"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=bc613ff047b171104fb86285d36d4369"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369^sys_idNOT IN45f1f3f447b171104fb86285d36d43e6,c1f137f447b171104fb86285d36d4337,c1f1f3f447b171104fb86285d36d43e3,c5f1f3f447b171104fb86285d36d43e9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>query_parameters</element>
+        <help/>
+        <hint/>
+        <label>Query Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>45f1f3f447b171104fb86285d36d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>c1f137f447b171104fb86285d36d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>path_parameters</element>
+        <help/>
+        <hint/>
+        <label>Path Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>c1f1f3f447b171104fb86285d36d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>headers</element>
+        <help/>
+        <hint/>
+        <label>Headers</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:38:57</sys_created_on>
+        <sys_id>c5f1f3f447b171104fb86285d36d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:38:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bc613ff047b171104fb86285d36d4369"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_bc613ff047b171104fb86285d36d4369"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bc613ff047b171104fb86285d36d4369"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>handle_song_suggestion</internal_name>
+        <label_cache>[{"name":"REST API - Asynchronous_1.body","label":"Trigger - REST API - Asynchronous➛Request Body","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD09f17bb4a7b17110aee0a6aaf5a9fe84","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.song","label":"Trigger - REST API - Asynchronous➛Body➛Song","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"REST API - Asynchronous_1.body.name","label":"Trigger - REST API - Asynchronous➛Body➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"REST API - Asynchronous_1.body.code","label":"Trigger - REST API - Asynchronous➛Body➛Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Handle Song Suggestion</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Handle Song Suggestion">bc613ff047b171104fb86285d36d4369</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aac2b73847b171104fb86285d36d4397</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=aac2b73847b171104fb86285d36d4397"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=aac2b73847b171104fb86285d36d4397^sys_idNOT INf2c2f73847b171104fb86285d36d4337"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</flow>
+        <name>REST API - Asynchronous</name>
+        <remote_sys_id/>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>f2c2f73847b171104fb86285d36d4337</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:48</sys_updated_on>
+        <trigger_definition display_value="REST API - Asynchronous">77ad0b76c71000101666868cb8c2601d</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>rest_async</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2c2f73847b171104fb86285d36d4337"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f2c2f73847b171104fb86285d36d4337</document_key>
+        <order>112</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>32c2f73847b171104fb86285d36d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Requires Authentication">2e397f5b0ffe1010b303f140ff767e36</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f2c2f73847b171104fb86285d36d4337</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>7ec2f73847b171104fb86285d36d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">6b6fcc4bc71000101666868cb8c260a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f2c2f73847b171104fb86285d36d4337</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>f2c2f73847b171104fb86285d36d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <value>/api/x_688586_wedding/handle_song_suggestion</value>
+        <variable display_value="Base Path">3af53c10c7531010bd2f868cb8c2608b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_77ad0b76c71000101666868cb8c2601d^id=f2c2f73847b171104fb86285d36d4337"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_77ad0b76c71000101666868cb8c2601d^id=f2c2f73847b171104fb86285d36d4337"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=aac2b73847b171104fb86285d36d4397"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=aac2b73847b171104fb86285d36d4397^sys_idNOT IN2ac2b73847b171104fb86285d36d4398"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>aac2b73847b171104fb86285d36d4397</id>
+        <name>Handle Song Suggestion</name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>2ac2b73847b171104fb86285d36d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2ac2b73847b171104fb86285d36d4398"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=aac2b73847b171104fb86285d36d4397^sys_idNOT IN3ec2b73847b171104fb86285d36d43d3,bac2b73847b171104fb86285d36d43db,e2c2b73847b171104fb86285d36d43a2,fec2b73847b171104fb86285d36d43cb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDaac2b73804b171100a5d4405eb16479d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>headers</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Headers</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</model>
+        <model_id>aac2b73847b171104fb86285d36d4397</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <next_element/>
+        <order>140</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>3ec2b73847b171104fb86285d36d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3ec2b73847b171104fb86285d36d43d3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD2ec2b738f8b17110ead06079e91a7b9f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Body</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</model>
+        <model_id>aac2b73847b171104fb86285d36d4397</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>bac2b73847b171104fb86285d36d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bac2b73847b171104fb86285d36d43db"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDa6c2b73877b17110bc28bf6197501699,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>path_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Path Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</model>
+        <model_id>aac2b73847b171104fb86285d36d4397</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <next_element/>
+        <order>120</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>e2c2b73847b171104fb86285d36d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e2c2b73847b171104fb86285d36d43a2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD2ac2b738d0b17110a9ab1471b2164d9b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</model>
+        <model_id>aac2b73847b171104fb86285d36d4397</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <next_element/>
+        <order>130</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>fec2b73847b171104fb86285d36d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fec2b73847b171104fb86285d36d43cb"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=aac2b73847b171104fb86285d36d4397^sys_idNOT IN7ac2f73847b171104fb86285d36d4334,bac2f73847b171104fb86285d36d4312"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</action_type>
+        <action_type_parent display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>7ac2f73847b171104fb86285d36d4334</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:47</sys_updated_on>
+        <ui_id>0c7105c8-cc11-40a7-9564-614cf0623666</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ac2f73847b171104fb86285d36d4334"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ac2f73847b171104fb86285d36d4334</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>3ec2f73847b171104fb86285d36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <value>6371970326:AAFKjDJBUli8Zza6Z24zh5Q_rveaISg8wew</value>
+        <variable display_value="Bot Token">5638d334473171104fb86285d36d435e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ac2f73847b171104fb86285d36d4334</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>7ac2f73847b171104fb86285d36d4336</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:47</sys_updated_on>
+        <value/>
+        <variable display_value="Parse mode">884c9f78473171104fb86285d36d4340</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ac2f73847b171104fb86285d36d4334</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>fec2f73847b171104fb86285d36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <value>-4079293163</value>
+        <variable display_value="Chat ID">d238d334473171104fb86285d36d4362</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ac2f73847b171104fb86285d36d4334"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bot_token</field>
+        <id>7ac2f73847b171104fb86285d36d4334</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>bec2f73847b171104fb86285d36d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>chat_id</field>
+        <id>7ac2f73847b171104fb86285d36d4334</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>f6c2f73847b171104fb86285d36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parse_mode</field>
+        <id>7ac2f73847b171104fb86285d36d4334</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>36c2f73847b171104fb86285d36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>7ac2f73847b171104fb86285d36d4334</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:38</sys_created_on>
+        <sys_id>72c2f73847b171104fb86285d36d4336</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</table>
+        <value>New song suggestion from {{REST API - Asynchronous_1.body.name}}:
+
+Song suggestion:
+{{REST API - Asynchronous_1.body.song}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ac2f73847b171104fb86285d36d4334"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ac2f73847b171104fb86285d36d4334"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Handle Song Suggestion">aac2b73847b171104fb86285d36d4397</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>bac2f73847b171104fb86285d36d4312</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:47</sys_updated_on>
+        <ui_id>c9ae8ade-da82-49af-b0b0-0c72bffca5a0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bac2f73847b171104fb86285d36d4312"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bac2f73847b171104fb86285d36d4312</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>bec2f73847b171104fb86285d36d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <value>x_688586_wedding_song_suggestions</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bac2f73847b171104fb86285d36d4312"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bac2f73847b171104fb86285d36d4312</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>7ac2f73847b171104fb86285d36d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bac2f73847b171104fb86285d36d4312</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>3ec2f73847b171104fb86285d36d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>invite_code={{REST API - Asynchronous_1.body.code}}^name={{REST API - Asynchronous_1.body.name}}^song_details={{REST API - Asynchronous_1.body.song}}^payload={{REST API - Asynchronous_1.body}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bac2f73847b171104fb86285d36d4312"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bac2f73847b171104fb86285d36d4312"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=aac2b73847b171104fb86285d36d4397"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397^sys_idNOT IN72c2b73847b171104fb86285d36d43d8,76c2f73847b171104fb86285d36d4305,b6c2b73847b171104fb86285d36d43c8,f2c2b73847b171104fb86285d36d43d0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>headers</element>
+        <help/>
+        <hint/>
+        <label>Headers</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>72c2b73847b171104fb86285d36d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>76c2f73847b171104fb86285d36d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>path_parameters</element>
+        <help/>
+        <hint/>
+        <label>Path Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>b6c2b73847b171104fb86285d36d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>query_parameters</element>
+        <help/>
+        <hint/>
+        <label>Query Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:37</sys_created_on>
+        <sys_id>f2c2b73847b171104fb86285d36d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:42:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aac2b73847b171104fb86285d36d4397"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_aac2b73847b171104fb86285d36d4397"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aac2b73847b171104fb86285d36d4397"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>bc613ff047b171104fb86285d36d4369</sys_id>
+        <latest_snapshot>aac2b73847b171104fb86285d36d4397</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-09-13-2023_09-21-2023_1911.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=bc613ff047b171104fb86285d36d4369^sys_idNOT IN8bc2f73847b171104fb86285d36d439b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8bc2f73847b171104fb86285d36d439b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>bc613ff047b171104fb86285d36d4369</plan_id>
+        <snapshot>f5c4f3f847b171104fb86285d36d4353</snapshot>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 09:42:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bc2f73847b171104fb86285d36d439b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 09:50:48</sys_updated_on>
+        <trigger display_value="">c3c2f73847b171104fb86285d36d439b</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=bc613ff047b171104fb86285d36d4369"/>
+</record_update>

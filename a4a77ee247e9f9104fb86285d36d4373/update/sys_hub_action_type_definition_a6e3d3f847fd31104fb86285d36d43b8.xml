@@ -1,0 +1,3222 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>send_telegram_message</internal_name>
+        <label_cache>[{"name":"{{action.bot_token}}","label":"action➛Bot Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.chat_id}}","label":"action➛Chat ID","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.reply_to_message_id}}","label":"action➛Reply to message ID","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parse_mode}}","label":"action➛Parse mode","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].output}}","label":"step➛Prepare body➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].response_body}}","label":"step➛Send message➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.code}}","label":"step➛Prepare body➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.message}}","label":"step➛Prepare body➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.code}}","label":"step➛Send message➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_code}}","label":"step➛Send message➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].status_code}}","label":"step➛Send message➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.message}}","label":"step➛Send message➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_message}}","label":"step➛Send message➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.code}}","label":"step➛Parse response➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.message}}","label":"step➛Parse response➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].root}}","label":"step➛Parse response➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>9e38d334473171104fb86285d36d435a</master_snapshot>
+        <name>Send Telegram Message</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:27:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6e3d3f847fd31104fb86285d36d43b8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Send Telegram Message</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a6e3d3f847fd31104fb86285d36d43b8</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6e3d3f847fd31104fb86285d36d43b8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a6e3d3f847fd31104fb86285d36d43b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a6e3d3f847fd31104fb86285d36d43b8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>6b3c5f78473171104fb86285d36d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">633c5f78473171104fb86285d36d43b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a6e3d3f847fd31104fb86285d36d43b8</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>a33c5f78473171104fb86285d36d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">eb3c5f78473171104fb86285d36d43b8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a6e3d3f847fd31104fb86285d36d43b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload</field>
+        <id>a6e3d3f847fd31104fb86285d36d43b8</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>da38d334473171104fb86285d36d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</table>
+        <value>{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>a6e3d3f847fd31104fb86285d36d43b8</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>233c5f78473171104fb86285d36d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>a6e3d3f847fd31104fb86285d36d43b8</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>6b3c5f78473171104fb86285d36d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN46389334473171104fb86285d36d43c3,82389334473171104fb86285d36d43ca,82389334473171104fb86285d36d43fb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action>
+        <cid>6f54bbef-006d-4222-ae12-9053b59979a3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Prepare body</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Builder">dfd9f353b733111007402a91de11a9e3</step_type>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>46389334473171104fb86285d36d43c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:05</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=46389334473171104fb86285d36d43c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>46389334473171104fb86285d36d43c3</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>0e389334473171104fb86285d36d43c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:05</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Emit Empty Structure">0e417f2bb733111007402a91de11a99f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>46389334473171104fb86285d36d43c3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>ce389334473171104fb86285d36d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value/>
+        <variable display_value="Structure">92da7393b733111007402a91de11a980</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=46389334473171104fb86285d36d43c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>emit_empty_structure</field>
+        <id>46389334473171104fb86285d36d43c3</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>c6389334473171104fb86285d36d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dfd9f353b733111007402a91de11a9e3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>structure</field>
+        <id>46389334473171104fb86285d36d43c3</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>8a389334473171104fb86285d36d43c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:05</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dfd9f353b733111007402a91de11a9e3</table>
+        <value>[{"id":"dc8d3617-71c1-476f-bef1-9f523f3a279c","name":"chat_id","value":"{{action.chat_id}}","type":"number","path":[],"choice":"empty string"},{"id":"36b5f690-becb-4b7d-b259-2c543e1a5d3a","name":"text","value":"{{action.text}}","type":"string","path":[],"choice":"empty string"},{"id":"3db4e015-4d22-4083-b32e-cd344fe2fe70","name":"reply_to_message_id","value":"{{action.reply_to_message_id}}","type":"number","path":[],"choice":"empty string"},{"id":"177ad0c2-b66b-405d-a6f6-9d123596270b","name":"parse_mode","value":"{{action.parse_mode}}","type":"string","path":[],"choice":"empty string"}]</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=46389334473171104fb86285d36d43c3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=46389334473171104fb86285d36d43c3"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=46389334473171104fb86285d36d43c3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=46389334473171104fb86285d36d43c3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_46389334473171104fb86285d36d43c3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action>
+        <cid>2c8b48f5-9ab6-41c6-a029-95363940a2d3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Send message</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>82389334473171104fb86285d36d43ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=82389334473171104fb86285d36d43ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>02389334473171104fb86285d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>0a389334473171104fb86285d36d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>0e389334473171104fb86285d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>46389334473171104fb86285d36d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>4a389334473171104fb86285d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>/sendMessage</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>82389334473171104fb86285d36d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>86389334473171104fb86285d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>c2389334473171104fb86285d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43ca</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>ce389334473171104fb86285d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=82389334473171104fb86285d36d43ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>ca389334473171104fb86285d36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>0a389334473171104fb86285d36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://api.telegram.org/bot{{action.bot_token}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>c2389334473171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[6f54bbef-006d-4222-ae12-9053b59979a3].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>46389334473171104fb86285d36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>ce389334473171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>8e389334473171104fb86285d36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>82389334473171104fb86285d36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>02389334473171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>86389334473171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>4a389334473171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>82389334473171104fb86285d36d43ca</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>0e389334473171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=82389334473171104fb86285d36d43ca"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=82389334473171104fb86285d36d43ca"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=82389334473171104fb86285d36d43ca"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=82389334473171104fb86285d36d43ca"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_82389334473171104fb86285d36d43ca"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action>
+        <cid>90b8d713-9ea8-4d10-ac06-a8b8511282a9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Parse response</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>82389334473171104fb86285d36d43fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=82389334473171104fb86285d36d43fb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43fb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>0638d334473171104fb86285d36d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <value>{"ok":true,"result":{"message_id":6,"from":{"id":6371970326,"is_bot":true,"first_name":"Sapphire Wedding Bot","username":"SapphireWedBot"},"chat":{"id":170186830,"first_name":"Astrid (KA)","last_name":"Sapphire","username":"SapphicFire","type":"private"},"date":1696750438,"reply_to_message":{"message_id":4,"from":{"id":170186830,"is_bot":false,"first_name":"Astrid (KA)","last_name":"Sapphire","username":"SapphicFire","language_code":"en","is_premium":true},"chat":{"id":170186830,"first_name":"Astrid (KA)","last_name":"Sapphire","username":"SapphicFire","type":"private"},"date":1696749947,"text":"Test"},"text":"Gotcha"}}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>82389334473171104fb86285d36d43fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>4238d334473171104fb86285d36d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"ok","children":[],"type":"string","jpath":"$.ok","previewValue":"true"},{"name":"result","children":[{"name":"message_id","children":[],"type":"string","jpath":"$.result.message_id","previewValue":"6"},{"name":"from","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.from.id","previewValue":"6371970326"},{"name":"is_bot","children":[],"type":"string","jpath":"$.result.from.is_bot","previewValue":"true"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.from.first_name","previewValue":"Sapphire Wedding Bot"},{"name":"username","children":[],"type":"string","jpath":"$.result.from.username","previewValue":"SapphireWedBot"}],"type":"object","jpath":"$.result.from","previewValue":""},{"name":"chat","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.chat.id","previewValue":"170186830"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.chat.first_name","previewValue":"Astrid (KA)"},{"name":"last_name","children":[],"type":"string","jpath":"$.result.chat.last_name","previewValue":"Sapphire"},{"name":"username","children":[],"type":"string","jpath":"$.result.chat.username","previewValue":"SapphicFire"},{"name":"type","children":[],"type":"string","jpath":"$.result.chat.type","previewValue":"private"}],"type":"object","jpath":"$.result.chat","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.result.date","previewValue":"1696750438"},{"name":"reply_to_message","children":[{"name":"message_id","children":[],"type":"string","jpath":"$.result.reply_to_message.message_id","previewValue":"4"},{"name":"from","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.reply_to_message.from.id","previewValue":"170186830"},{"name":"is_bot","children":[],"type":"string","jpath":"$.result.reply_to_message.from.is_bot","previewValue":"false"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.reply_to_message.from.first_name","previewValue":"Astrid (KA)"},{"name":"last_name","children":[],"type":"string","jpath":"$.result.reply_to_message.from.last_name","previewValue":"Sapphire"},{"name":"username","children":[],"type":"string","jpath":"$.result.reply_to_message.from.username","previewValue":"SapphicFire"},{"name":"language_code","children":[],"type":"string","jpath":"$.result.reply_to_message.from.language_code","previewValue":"en"},{"name":"is_premium","children":[],"type":"string","jpath":"$.result.reply_to_message.from.is_premium","previewValue":"true"}],"type":"object","jpath":"$.result.reply_to_message.from","previewValue":""},{"name":"chat","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.id","previewValue":"170186830"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.first_name","previewValue":"Astrid (KA)"},{"name":"last_name","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.last_name","previewValue":"Sapphire"},{"name":"username","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.username","previewValue":"SapphicFire"},{"name":"type","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.type","previewValue":"private"}],"type":"object","jpath":"$.result.reply_to_message.chat","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.result.reply_to_message.date","previewValue":"1696749947"},{"name":"text","children":[],"type":"string","jpath":"$.result.reply_to_message.text","previewValue":"Test"}],"type":"object","jpath":"$.result.reply_to_message","previewValue":""},{"name":"text","children":[],"type":"string","jpath":"$.result.text","previewValue":"Gotcha"}],"type":"object","jpath":"$.result","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_82389334473171104fb86285d36d43fb^id=82389334473171104fb86285d36d43fb"/>
+    <sys_element_mapping action="delete_multiple" query="id=82389334473171104fb86285d36d43fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>82389334473171104fb86285d36d43fb</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>ce38d334473171104fb86285d36d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>82389334473171104fb86285d36d43fb</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>0e38d334473171104fb86285d36d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>82389334473171104fb86285d36d43fb</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>4a38d334473171104fb86285d36d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=82389334473171104fb86285d36d43fb"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=82389334473171104fb86285d36d43fb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=82389334473171104fb86285d36d43fb^sys_idNOT IN4e38d334473171104fb86285d36d4301"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDca3893342c317110446e5cfcbf8de7fe,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cbf0b332-0d6f-47bc-b08c-a3013470d942</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Parse response">82389334473171104fb86285d36d43fb</model>
+        <model_id>82389334473171104fb86285d36d43fb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_82389334473171104fb86285d36d43fb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>4e38d334473171104fb86285d36d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=82389334473171104fb86285d36d43fb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_82389334473171104fb86285d36d43fb^sys_idNOT IN4238d334473171104fb86285d36d4305"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_82389334473171104fb86285d36d43fb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>4238d334473171104fb86285d36d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN42389334473171104fb86285d36d43b8,46389334473171104fb86285d36d43bb,4a389334473171104fb86285d36d43be,533c5f78473171104fb86285d36d4369,c2389334473171104fb86285d36d43b4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=ca868c48-21ce-4339-8eb1-4adb9e3bc905</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>chat_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Chat ID</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>42389334473171104fb86285d36d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=42389334473171104fb86285d36d43b8"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=238884f6-aedc-4e75-b6d3-f6db4ce55846</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>text</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Text</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>46389334473171104fb86285d36d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=46389334473171104fb86285d36d43bb"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=8b03fa0e-5b8b-4fc6-8cfc-31428a43085a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reply_to_message_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Reply to message ID</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>4a389334473171104fb86285d36d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4a389334473171104fb86285d36d43be"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d1463c0c-49cf-46bf-ab02-48a8ca468908</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parse_mode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Parse mode</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:05</sys_created_on>
+        <sys_id>533c5f78473171104fb86285d36d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=533c5f78473171104fb86285d36d4369"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=70298586-0e76-49c6-b2f5-524f079ac3da</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bot_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Bot Token</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>c2389334473171104fb86285d36d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c2389334473171104fb86285d36d43b4"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN4e38d334473171104fb86285d36d430c,633c5f78473171104fb86285d36d43b5,eb3c5f78473171104fb86285d36d43b8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDc638d334e4317110ea09ffbe07e7350a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=90b8d713-9ea8-4d10-ac06-a8b8511282a9,sourceType=step,sourceUiUniqueId=cbf0b332-0d6f-47bc-b08c-a3013470d942,uiType=object,uiTypeLabel=Object,uiUniqueId=fef87df4-1236-4f3f-988d-b81b10b54796</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payload</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payload</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>4e38d334473171104fb86285d36d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4e38d334473171104fb86285d36d430c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4e38d334473171104fb86285d36d430c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e00f0689-f3e0-4189-a44d-f7208479c7d2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>633c5f78473171104fb86285d36d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=633c5f78473171104fb86285d36d43b5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=633c5f78473171104fb86285d36d43b5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=9c8eb990-7779-4216-9b7a-4b514d34d275,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</model>
+        <model_id>a6e3d3f847fd31104fb86285d36d43b8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>eb3c5f78473171104fb86285d36d43b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb3c5f78473171104fb86285d36d43b8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb3c5f78473171104fb86285d36d43b8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a6e3d3f847fd31104fb86285d36d43b8"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN9638d334473171104fb86285d36d4314"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action_type_id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>9638d334473171104fb86285d36d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9638d334473171104fb86285d36d4314^sys_idNOT IN5a38d334473171104fb86285d36d4315,9638d334473171104fb86285d36d4315,9e38d334473171104fb86285d36d4314"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2023-10-08 00:46:32">9638d334473171104fb86285d36d4314</action_status_metadata_id>
+        <condition>{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Parsing failed</label>
+        <order>3</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>5a38d334473171104fb86285d36d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2023-10-08 00:46:32">9638d334473171104fb86285d36d4314</action_status_metadata_id>
+        <condition>{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.code}}=1^NQ{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_code}}!=0 ^NQ{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].status_code}}!=200</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>REST Message fails</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Message sending errored.\\\\nStep Code: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.code}}\\\\nStep Message: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.message}}\\\\nError Code: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_code}}\\\\nError Message: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_message}}\\\\nStatus Code: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].status_code}}\\\\nResponse Body: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].response_body}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>9638d334473171104fb86285d36d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2023-10-08 00:46:32">9638d334473171104fb86285d36d4314</action_status_metadata_id>
+        <condition>{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Body generation fails</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>9e38d334473171104fb86285d36d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN133c5f78473171104fb86285d36d436c,82389334473171104fb86285d36d43c1,86389334473171104fb86285d36d43b7,8a389334473171104fb86285d36d43ba,8e389334473171104fb86285d36d43bd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>parse_mode</element>
+        <help/>
+        <hint/>
+        <label>Parse mode</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:05</sys_created_on>
+        <sys_id>133c5f78473171104fb86285d36d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reply_to_message_id</element>
+        <help/>
+        <hint/>
+        <label>Reply to message ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>82389334473171104fb86285d36d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>bot_token</element>
+        <help/>
+        <hint/>
+        <label>Bot Token</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>86389334473171104fb86285d36d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>chat_id</element>
+        <help/>
+        <hint/>
+        <label>Chat ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>8a389334473171104fb86285d36d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>text</element>
+        <help/>
+        <hint/>
+        <label>Text</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:31</sys_created_on>
+        <sys_id>8e389334473171104fb86285d36d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a6e3d3f847fd31104fb86285d36d43b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN233c5f78473171104fb86285d36d43b8,5a38d334473171104fb86285d36d4310,633c5f78473171104fb86285d36d43bd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>233c5f78473171104fb86285d36d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>payload</element>
+        <help/>
+        <hint/>
+        <label>Payload</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:32</sys_created_on>
+        <sys_id>5a38d334473171104fb86285d36d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:06</sys_created_on>
+        <sys_id>633c5f78473171104fb86285d36d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a6e3d3f847fd31104fb86285d36d43b8"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=a6e3d3f847fd31104fb86285d36d43b8^sys_idNOT IN8f381734473171104fb86285d36d435d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8f381734473171104fb86285d36d435d","name":"plan","plan_signature":null}}</plan>
+        <snapshot>884c9f78473171104fb86285d36d4397</snapshot>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f381734473171104fb86285d36d435d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:10</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>send_telegram_message</internal_name>
+        <label_cache>[{"name":"{{action.bot_token}}","label":"action➛Bot Token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.chat_id}}","label":"action➛Chat ID","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.reply_to_message_id}}","label":"action➛Reply to message ID","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parse_mode}}","label":"action➛Parse mode","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].output}}","label":"step➛Prepare body➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].response_body}}","label":"step➛Send message➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.code}}","label":"step➛Prepare body➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.message}}","label":"step➛Prepare body➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.code}}","label":"step➛Send message➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_code}}","label":"step➛Send message➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].status_code}}","label":"step➛Send message➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.message}}","label":"step➛Send message➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_message}}","label":"step➛Send message➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.code}}","label":"step➛Parse response➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.message}}","label":"step➛Parse response➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].root}}","label":"step➛Parse response➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Send Telegram Message</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Send Telegram Message">a6e3d3f847fd31104fb86285d36d43b8</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e38d334473171104fb86285d36d435a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:07</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e38d334473171104fb86285d36d435a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9e38d334473171104fb86285d36d435a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>9e38d334473171104fb86285d36d435a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">2638d334473171104fb86285d36d439e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>9e38d334473171104fb86285d36d435a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>4c4c9f78473171104fb86285d36d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">2238d334473171104fb86285d36d439b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e38d334473171104fb86285d36d435a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload</field>
+        <id>9e38d334473171104fb86285d36d435a</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ee38d334473171104fb86285d36d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</table>
+        <value>{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>9e38d334473171104fb86285d36d435a</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>c84c9f78473171104fb86285d36d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>9e38d334473171104fb86285d36d435a</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>a238d334473171104fb86285d36d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=9e38d334473171104fb86285d36d435a^sys_idNOT IN2238d334473171104fb86285d36d4388,6a38d334473171104fb86285d36d436d,e638d334473171104fb86285d36d4373"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</action>
+        <cid>90b8d713-9ea8-4d10-ac06-a8b8511282a9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Parse response</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2238d334473171104fb86285d36d4388</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2238d334473171104fb86285d36d4388"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2238d334473171104fb86285d36d4388</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6a38d334473171104fb86285d36d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>{"ok":true,"result":{"message_id":6,"from":{"id":6371970326,"is_bot":true,"first_name":"Sapphire Wedding Bot","username":"SapphireWedBot"},"chat":{"id":170186830,"first_name":"Astrid (KA)","last_name":"Sapphire","username":"SapphicFire","type":"private"},"date":1696750438,"reply_to_message":{"message_id":4,"from":{"id":170186830,"is_bot":false,"first_name":"Astrid (KA)","last_name":"Sapphire","username":"SapphicFire","language_code":"en","is_premium":true},"chat":{"id":170186830,"first_name":"Astrid (KA)","last_name":"Sapphire","username":"SapphicFire","type":"private"},"date":1696749947,"text":"Test"},"text":"Gotcha"}}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2238d334473171104fb86285d36d4388</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>a638d334473171104fb86285d36d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"ok","children":[],"type":"string","jpath":"$.ok","previewValue":"true"},{"name":"result","children":[{"name":"message_id","children":[],"type":"string","jpath":"$.result.message_id","previewValue":"6"},{"name":"from","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.from.id","previewValue":"6371970326"},{"name":"is_bot","children":[],"type":"string","jpath":"$.result.from.is_bot","previewValue":"true"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.from.first_name","previewValue":"Sapphire Wedding Bot"},{"name":"username","children":[],"type":"string","jpath":"$.result.from.username","previewValue":"SapphireWedBot"}],"type":"object","jpath":"$.result.from","previewValue":""},{"name":"chat","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.chat.id","previewValue":"170186830"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.chat.first_name","previewValue":"Astrid (KA)"},{"name":"last_name","children":[],"type":"string","jpath":"$.result.chat.last_name","previewValue":"Sapphire"},{"name":"username","children":[],"type":"string","jpath":"$.result.chat.username","previewValue":"SapphicFire"},{"name":"type","children":[],"type":"string","jpath":"$.result.chat.type","previewValue":"private"}],"type":"object","jpath":"$.result.chat","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.result.date","previewValue":"1696750438"},{"name":"reply_to_message","children":[{"name":"message_id","children":[],"type":"string","jpath":"$.result.reply_to_message.message_id","previewValue":"4"},{"name":"from","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.reply_to_message.from.id","previewValue":"170186830"},{"name":"is_bot","children":[],"type":"string","jpath":"$.result.reply_to_message.from.is_bot","previewValue":"false"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.reply_to_message.from.first_name","previewValue":"Astrid (KA)"},{"name":"last_name","children":[],"type":"string","jpath":"$.result.reply_to_message.from.last_name","previewValue":"Sapphire"},{"name":"username","children":[],"type":"string","jpath":"$.result.reply_to_message.from.username","previewValue":"SapphicFire"},{"name":"language_code","children":[],"type":"string","jpath":"$.result.reply_to_message.from.language_code","previewValue":"en"},{"name":"is_premium","children":[],"type":"string","jpath":"$.result.reply_to_message.from.is_premium","previewValue":"true"}],"type":"object","jpath":"$.result.reply_to_message.from","previewValue":""},{"name":"chat","children":[{"name":"id","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.id","previewValue":"170186830"},{"name":"first_name","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.first_name","previewValue":"Astrid (KA)"},{"name":"last_name","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.last_name","previewValue":"Sapphire"},{"name":"username","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.username","previewValue":"SapphicFire"},{"name":"type","children":[],"type":"string","jpath":"$.result.reply_to_message.chat.type","previewValue":"private"}],"type":"object","jpath":"$.result.reply_to_message.chat","previewValue":""},{"name":"date","children":[],"type":"string","jpath":"$.result.reply_to_message.date","previewValue":"1696749947"},{"name":"text","children":[],"type":"string","jpath":"$.result.reply_to_message.text","previewValue":"Test"}],"type":"object","jpath":"$.result.reply_to_message","previewValue":""},{"name":"text","children":[],"type":"string","jpath":"$.result.text","previewValue":"Gotcha"}],"type":"object","jpath":"$.result","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2238d334473171104fb86285d36d4388^id=2238d334473171104fb86285d36d4388"/>
+    <sys_element_mapping action="delete_multiple" query="id=2238d334473171104fb86285d36d4388"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>2238d334473171104fb86285d36d4388</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>2238d334473171104fb86285d36d4388</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6238d334473171104fb86285d36d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>2238d334473171104fb86285d36d4388</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ae38d334473171104fb86285d36d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=2238d334473171104fb86285d36d4388"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2238d334473171104fb86285d36d4388"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2238d334473171104fb86285d36d4388^sys_idNOT INae38d334473171104fb86285d36d438c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDaa38d334583171101a5d924a383dcd8a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cbf0b332-0d6f-47bc-b08c-a3013470d942</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Parse response">2238d334473171104fb86285d36d4388</model>
+        <model_id>2238d334473171104fb86285d36d4388</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2238d334473171104fb86285d36d4388</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ae38d334473171104fb86285d36d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2238d334473171104fb86285d36d4388"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2238d334473171104fb86285d36d4388^sys_idNOT INea38d334473171104fb86285d36d438f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_2238d334473171104fb86285d36d4388</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ea38d334473171104fb86285d36d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</action>
+        <cid>6f54bbef-006d-4222-ae12-9053b59979a3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Prepare body</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Builder">dfd9f353b733111007402a91de11a9e3</step_type>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6a38d334473171104fb86285d36d436d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a38d334473171104fb86285d36d436d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6a38d334473171104fb86285d36d436d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value/>
+        <variable display_value="Structure">92da7393b733111007402a91de11a980</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6a38d334473171104fb86285d36d436d</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6238d334473171104fb86285d36d4372</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Emit Empty Structure">0e417f2bb733111007402a91de11a99f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a38d334473171104fb86285d36d436d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>emit_empty_structure</field>
+        <id>6a38d334473171104fb86285d36d436d</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2e38d334473171104fb86285d36d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dfd9f353b733111007402a91de11a9e3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>structure</field>
+        <id>6a38d334473171104fb86285d36d436d</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ee38d334473171104fb86285d36d4371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dfd9f353b733111007402a91de11a9e3</table>
+        <value>[{"id":"dc8d3617-71c1-476f-bef1-9f523f3a279c","name":"chat_id","value":"{{action.chat_id}}","type":"number","path":[],"choice":"empty string"},{"id":"36b5f690-becb-4b7d-b259-2c543e1a5d3a","name":"text","value":"{{action.text}}","type":"string","path":[],"choice":"empty string"},{"id":"3db4e015-4d22-4083-b32e-cd344fe2fe70","name":"reply_to_message_id","value":"{{action.reply_to_message_id}}","type":"number","path":[],"choice":"empty string"},{"id":"177ad0c2-b66b-405d-a6f6-9d123596270b","name":"parse_mode","value":"{{action.parse_mode}}","type":"string","path":[],"choice":"empty string"}]</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a38d334473171104fb86285d36d436d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6a38d334473171104fb86285d36d436d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6a38d334473171104fb86285d36d436d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a38d334473171104fb86285d36d436d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6a38d334473171104fb86285d36d436d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</action>
+        <cid>2c8b48f5-9ab6-41c6-a029-95363940a2d3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Send message</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>e638d334473171104fb86285d36d4373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e638d334473171104fb86285d36d4373"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2238d334473171104fb86285d36d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6238d334473171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6e38d334473171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>a638d334473171104fb86285d36d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>aa38d334473171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ae38d334473171104fb86285d36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>e238d334473171104fb86285d36d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e638d334473171104fb86285d36d4373</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>e638d334473171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <value>/sendMessage</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e638d334473171104fb86285d36d4373"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6a38d334473171104fb86285d36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>a638d334473171104fb86285d36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://api.telegram.org/bot{{action.bot_token}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6238d334473171104fb86285d36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[6f54bbef-006d-4222-ae12-9053b59979a3].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>e238d334473171104fb86285d36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6e38d334473171104fb86285d36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2e38d334473171104fb86285d36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2238d334473171104fb86285d36d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ae38d334473171104fb86285d36d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>e638d334473171104fb86285d36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>e638d334473171104fb86285d36d4373</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>aa38d334473171104fb86285d36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=e638d334473171104fb86285d36d4373"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e638d334473171104fb86285d36d4373"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e638d334473171104fb86285d36d4373"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e638d334473171104fb86285d36d4373"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e638d334473171104fb86285d36d4373"/>
+    <sys_hub_action_input action="delete_multiple" query="model=9e38d334473171104fb86285d36d435a^sys_idNOT IN5638d334473171104fb86285d36d435e,884c9f78473171104fb86285d36d4340,d238d334473171104fb86285d36d4362,e638d334473171104fb86285d36d4365,ea38d334473171104fb86285d36d4368"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=70298586-0e76-49c6-b2f5-524f079ac3da</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bot_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Bot Token</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>5638d334473171104fb86285d36d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5638d334473171104fb86285d36d435e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d1463c0c-49cf-46bf-ab02-48a8ca468908</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parse_mode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Parse mode</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>884c9f78473171104fb86285d36d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=884c9f78473171104fb86285d36d4340"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=ca868c48-21ce-4339-8eb1-4adb9e3bc905</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>chat_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Chat ID</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>d238d334473171104fb86285d36d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d238d334473171104fb86285d36d4362"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=238884f6-aedc-4e75-b6d3-f6db4ce55846</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>text</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Text</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>e638d334473171104fb86285d36d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e638d334473171104fb86285d36d4365"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=8b03fa0e-5b8b-4fc6-8cfc-31428a43085a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reply_to_message_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Reply to message ID</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>ea38d334473171104fb86285d36d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea38d334473171104fb86285d36d4368"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9e38d334473171104fb86285d36d435a^sys_idNOT IN2238d334473171104fb86285d36d4397,2238d334473171104fb86285d36d439b,2638d334473171104fb86285d36d439e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDaa38d334fa31711009c8afb102f60594,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=90b8d713-9ea8-4d10-ac06-a8b8511282a9,sourceType=step,sourceUiUniqueId=cbf0b332-0d6f-47bc-b08c-a3013470d942,uiType=object,uiTypeLabel=Object,uiUniqueId=fef87df4-1236-4f3f-988d-b81b10b54796</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payload</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payload</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2238d334473171104fb86285d36d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2238d334473171104fb86285d36d4397"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2238d334473171104fb86285d36d4397"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e00f0689-f3e0-4189-a44d-f7208479c7d2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2238d334473171104fb86285d36d439b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2238d334473171104fb86285d36d439b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2238d334473171104fb86285d36d439b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=9c8eb990-7779-4216-9b7a-4b514d34d275,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</model>
+        <model_id>9e38d334473171104fb86285d36d435a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d439e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2638d334473171104fb86285d36d439e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2638d334473171104fb86285d36d439e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9e38d334473171104fb86285d36d435a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9e38d334473171104fb86285d36d435a^sys_idNOT IN6e38d334473171104fb86285d36d43a7"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Send Telegram Message">9e38d334473171104fb86285d36d435a</action_type_id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6e38d334473171104fb86285d36d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=6e38d334473171104fb86285d36d43a7^sys_idNOT IN004c9f78473171104fb86285d36d4397,084c9f78473171104fb86285d36d4396,8c4c9f78473171104fb86285d36d4396"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2023-10-08 00:46:33">6e38d334473171104fb86285d36d43a7</action_status_metadata_id>
+        <condition>{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Parsing failed</label>
+        <order>3</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[90b8d713-9ea8-4d10-ac06-a8b8511282a9].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>004c9f78473171104fb86285d36d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2023-10-08 00:46:33">6e38d334473171104fb86285d36d43a7</action_status_metadata_id>
+        <condition>{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Body generation fails</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[6f54bbef-006d-4222-ae12-9053b59979a3].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>084c9f78473171104fb86285d36d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2023-10-08 00:46:33">6e38d334473171104fb86285d36d43a7</action_status_metadata_id>
+        <condition>{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.code}}=1^NQ{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_code}}!=0 ^NQ{{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].status_code}}!=200</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>REST Message fails</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Message sending errored.\\\\nStep Code: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.code}}\\\\nStep Message: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].__step_status__.message}}\\\\nError Code: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_code}}\\\\nError Message: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].error_message}}\\\\nStatus Code: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].status_code}}\\\\nResponse Body: {{step[2c8b48f5-9ab6-41c6-a029-95363940a2d3].response_body}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>8c4c9f78473171104fb86285d36d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a^sys_idNOT IN1a38d334473171104fb86285d36d4361,2238d334473171104fb86285d36d4368,2638d334473171104fb86285d36d436b,2e38d334473171104fb86285d36d4364,884c9f78473171104fb86285d36d434f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>bot_token</element>
+        <help/>
+        <hint/>
+        <label>Bot Token</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>1a38d334473171104fb86285d36d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>text</element>
+        <help/>
+        <hint/>
+        <label>Text</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2238d334473171104fb86285d36d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reply_to_message_id</element>
+        <help/>
+        <hint/>
+        <label>Reply to message ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2638d334473171104fb86285d36d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>chat_id</element>
+        <help/>
+        <hint/>
+        <label>Chat ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2e38d334473171104fb86285d36d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>parse_mode</element>
+        <help/>
+        <hint/>
+        <label>Parse mode</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:04:08</sys_created_on>
+        <sys_id>884c9f78473171104fb86285d36d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:04:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9e38d334473171104fb86285d36d435a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a^sys_idNOT IN2a38d334473171104fb86285d36d43a2,6638d334473171104fb86285d36d439a,6a38d334473171104fb86285d36d439d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>2a38d334473171104fb86285d36d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>payload</element>
+        <help/>
+        <hint/>
+        <label>Payload</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6638d334473171104fb86285d36d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:46:33</sys_created_on>
+        <sys_id>6a38d334473171104fb86285d36d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:46:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9e38d334473171104fb86285d36d435a"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>a6e3d3f847fd31104fb86285d36d43b8</sys_id>
+        <latest_snapshot>9e38d334473171104fb86285d36d435a</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-09-13-2023_09-21-2023_1911.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

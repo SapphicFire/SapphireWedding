@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD95ce0d0b98297d1092fdf8fa049631e7</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a4a77ee247e9f9104fb86285d36d4373</scope_name>
+        <serialized_content>{"FlowDesigner:FD95ce0d0b98297d1092fdf8fa049631e7":{},"FlowDesigner:FD95ce0d0b98297d1092fdf8fa049631e7.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD95ce0d0b98297d1092fdf8fa049631e7\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":null,\"label\":\"Request Headers\",\"mandatory\":\"false\",\"order\":\"120\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-02 11:16:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59ce0d0b47297d104fb86285d36d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD95ce0d0b98297d1092fdf8fa049631e7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_complex_object_59ce0d0b47297d104fb86285d36d43e7</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-02 11:16:38</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8a5a63bc477171104fb86285d36d43e1" label="Song suggestions" max_length="40" name="x_688586_wedding_song_suggestions" type="collection">
+        <element label="Accepted" max_length="40" name="accepted" type="boolean"/>
+        <element label="Invite code" max_length="100" name="invite_code" type="string"/>
+        <element label="Name" max_length="200" name="name" read_only="true" type="string"/>
+        <element label="Payload" max_length="4000" name="payload" type="string"/>
+        <element display="true" label="Song details" max_length="4000" name="song_details" read_only="true" type="string"/>
+        <element label="Song link" max_length="40" name="song_link" type="url"/>
+    </element>
+</database>

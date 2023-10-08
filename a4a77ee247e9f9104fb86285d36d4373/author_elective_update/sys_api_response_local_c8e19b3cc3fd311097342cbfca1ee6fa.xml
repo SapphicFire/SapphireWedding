@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local">
+    <sys_api_response_local action="DELETE">
+        <api_collection/>
+        <api_operation display_value="POST /">f0af03b847fd31104fb86285d36d43ef</api_operation>
+        <description/>
+        <name>Generated Request for 445f833847fd31104fb86285d36d436a</name>
+        <status_code>202</status_code>
+        <sys_class_name>sys_api_response_local</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:18:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>c8e19b3cc3fd311097342cbfca1ee6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f0af03b847fd31104fb86285d36d43ef</sys_name>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_api_response_local_c8e19b3cc3fd311097342cbfca1ee6fa</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:18:48</sys_updated_on>
+    </sys_api_response_local>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</application>
+        <file_path/>
+        <instance_id>b4d18757dbdd119042b321c40596197a</instance_id>
+        <instance_name>dev132152</instance_name>
+        <name>sys_api_response_local_c8e19b3cc3fd311097342cbfca1ee6fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local"><sys_api_response_local action="INSERT_OR_UPDATE"><api_collection/><api_operation display_value="POST /">f0af03b847fd31104fb86285d36d43ef</api_operation><description/><name>Generated Request for 445f833847fd31104fb86285d36d436a</name><status_code>202</status_code><sys_class_name>sys_api_response_local</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-10-08 07:18:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>c8e19b3cc3fd311097342cbfca1ee6fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f0af03b847fd31104fb86285d36d43ef</sys_name><sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package><sys_policy/><sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope><sys_update_name>sys_api_response_local_c8e19b3cc3fd311097342cbfca1ee6fa</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-10-08 07:18:48</sys_updated_on></sys_api_response_local></record_update>]]></payload>
+        <payload_hash>1582440022</payload_hash>
+        <record_name>f0af03b847fd31104fb86285d36d43ef</record_name>
+        <reverted_from/>
+        <source>28a77ee247e9f9104fb86285d36d4377</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:18:48</sys_created_on>
+        <sys_id>84e1db3c47fd31104fb86285d36d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b0e2726a70000001</sys_recorded_at>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:18:48</sys_updated_on>
+        <type>Local API Response</type>
+        <update_guid>c8e1db3c04fd3110b184ec0d11c7fc08</update_guid>
+        <update_guid_history>c8e1db3c04fd3110b184ec0d11c7fc08:1582440022</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 07:25:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_response_local">sys_api_response_local</sys_db_object>
+        <sys_id>5ad2ee73ec944538b73bdc47b8db2aa1</sys_id>
+        <sys_metadata>c8e19b3cc3fd311097342cbfca1ee6fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f0af03b847fd31104fb86285d36d43ef</sys_name>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_scope_delete display_value="">11ffeb205c2b4eecb53b8d4e7baf9a01</sys_scope_delete>
+        <sys_update_name>sys_api_response_local_c8e19b3cc3fd311097342cbfca1ee6fa</sys_update_name>
+        <sys_update_version display_value="sys_api_response_local_c8e19b3cc3fd311097342cbfca1ee6fa">84e1db3c47fd31104fb86285d36d4309</sys_update_version>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 07:25:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_688586_wedding.user" name="x_688586_wedding.user">ef08fe2647e9f9104fb86285d36d433a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-01 05:39:40</sys_created_on>
+        <sys_id>ab08fe2647e9f9104fb86285d36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ef08fe2647e9f9104fb86285d36d433a</sys_name>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ab08fe2647e9f9104fb86285d36d433c</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-01 05:39:40</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1198000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_attending_count</internal_name>
+        <label_cache>[{"name":"4879fe84-fa57-4d13-b824-30dd4ce15466.Records","label":"1 - Look Up Records➛RSVPs Records","reference":"x_688586_wedding_rsvp","reference_display":"RSVPs","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.attending_count","label":"Flow Variables➛Attending count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"81956a5a-1969-45af-a663-aae6d7b0d09e"}}]</label_cache>
+        <master_snapshot>32f4af74477171104fb86285d36d43c2</master_snapshot>
+        <name>Get Attending Count</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:37:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47d32bf0477171104fb86285d36d4370</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Attending Count</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_hub_flow_47d32bf0477171104fb86285d36d4370</sys_update_name>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=47d32bf0477171104fb86285d36d4370"/>
+    <sys_variable_value action="delete_multiple" query="document_key=47d32bf0477171104fb86285d36d4370"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370^id=47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=47d32bf0477171104fb86285d36d4370"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=47d32bf0477171104fb86285d36d4370^sys_idNOT IN4fd32bf0477171104fb86285d36d4370"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>47d32bf0477171104fb86285d36d4370</id>
+        <name>Get Attending Count</name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:37:22</sys_created_on>
+        <sys_id>4fd32bf0477171104fb86285d36d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:37:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4fd32bf0477171104fb86285d36d4370"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=47d32bf0477171104fb86285d36d4370^sys_idNOT INede66738477171104fb86285d36d438e"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cc592436-9051-4da8-b02a-90f228fef15b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</model>
+        <model_id>47d32bf0477171104fb86285d36d4370</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:50:39</sys_created_on>
+        <sys_id>ede66738477171104fb86285d36d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:50:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ede66738477171104fb86285d36d438e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=47d32bf0477171104fb86285d36d4370^sys_idNOT IN6ef4af74477171104fb86285d36d4381"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>6ef4af74477171104fb86285d36d4381</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:35</sys_updated_on>
+        <ui_id>4879fe84-fa57-4d13-b824-30dd4ce15466</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6ef4af74477171104fb86285d36d4381"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6ef4af74477171104fb86285d36d4381</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>aaf4af74477171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:15</sys_updated_on>
+        <value>x_688586_wedding_rsvp</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6ef4af74477171104fb86285d36d4381</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>e6f4af74477171104fb86285d36d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:15</sys_updated_on>
+        <value>total_attending&gt;0</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=6ef4af74477171104fb86285d36d4381"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6ef4af74477171104fb86285d36d4381"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6ef4af74477171104fb86285d36d4381"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=47d32bf0477171104fb86285d36d4370^sys_idNOT IN2af4af74477171104fb86285d36d438a,62f4af74477171104fb86285d36d4384,eef4af74477171104fb86285d36d4386"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">66f4af74477171104fb86285d36d438a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>output</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>2af4af74477171104fb86285d36d438a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>0fb778ce-849e-4bd3-a296-3f0c3091c4bf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2af4af74477171104fb86285d36d438a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_47d32bf0477171104fb86285d36d4370^id=2af4af74477171104fb86285d36d438a"/>
+    <sys_element_mapping action="delete_multiple" query="id=2af4af74477171104fb86285d36d438a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attending_count_message</field>
+        <id>2af4af74477171104fb86285d36d438a</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>e2f4af74477171104fb86285d36d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370</table>
+        <value>{{flow_variable.attending_count}} people are attending at latest count</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>2af4af74477171104fb86285d36d438a</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:50:40</sys_created_on>
+        <sys_id>e1e66738477171104fb86285d36d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:50:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370</table>
+        <value>{{flow_variable.attending_count}} people are attending at latest count</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2af4af74477171104fb86285d36d438a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2af4af74477171104fb86285d36d438a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aef4af74477171104fb86285d36d4383</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>62f4af74477171104fb86285d36d4384</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>bd7cece2-c0bc-46d3-a9ac-92fa9ba4e22c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=62f4af74477171104fb86285d36d4384"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_47d32bf0477171104fb86285d36d4370^id=62f4af74477171104fb86285d36d4384"/>
+    <sys_element_mapping action="delete_multiple" query="id=62f4af74477171104fb86285d36d4384"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>62f4af74477171104fb86285d36d4384</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>6af4af74477171104fb86285d36d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4879fe84-fa57-4d13-b824-30dd4ce15466.Records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370^id=62f4af74477171104fb86285d36d4384"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=62f4af74477171104fb86285d36d4384"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62f4af74477171104fb86285d36d4384"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2ef4af74477171104fb86285d36d4386</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</flow>
+        <flow_variable/>
+        <flow_variables_assigned>attending_count</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bd7cece2-c0bc-46d3-a9ac-92fa9ba4e22c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>eef4af74477171104fb86285d36d4386</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>b8c790f0-64df-465a-bf9d-be62f2532b70</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eef4af74477171104fb86285d36d4386"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eef4af74477171104fb86285d36d4386</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>eef4af74477171104fb86285d36d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:15</sys_updated_on>
+        <value/>
+        <variable display_value="Attending count">1674e374477171104fb86285d36d431e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_47d32bf0477171104fb86285d36d4370^id=eef4af74477171104fb86285d36d4386"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370^id=eef4af74477171104fb86285d36d4386"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eef4af74477171104fb86285d36d4386"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eef4af74477171104fb86285d36d4386^sys_idNOT INeef4af74477171104fb86285d36d4387"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>attending_count</input_name>
+        <instance>eef4af74477171104fb86285d36d4386</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"attending_count":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.flow_var.attending_count + fd_data._2__for_each.item.total_attending;"}}</script>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:15</sys_created_on>
+        <sys_id>eef4af74477171104fb86285d36d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=47d32bf0477171104fb86285d36d4370^sys_idNOT IN1674e374477171104fb86285d36d431e"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=81956a5a-1969-45af-a663-aae6d7b0d09e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attending_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Attending count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</model>
+        <model_id>47d32bf0477171104fb86285d36d4370</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_47d32bf0477171104fb86285d36d4370</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:40:03</sys_created_on>
+        <sys_id>1674e374477171104fb86285d36d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:40:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_47d32bf0477171104fb86285d36d4370"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_47d32bf0477171104fb86285d36d4370"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370^sys_idNOT IN6de66738477171104fb86285d36d439d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:50:39</sys_created_on>
+        <sys_id>6de66738477171104fb86285d36d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:50:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_47d32bf0477171104fb86285d36d4370"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_attending_count</internal_name>
+        <label_cache>[{"name":"4879fe84-fa57-4d13-b824-30dd4ce15466.Records","label":"1 - Look Up Records➛RSVPs Records","reference":"x_688586_wedding_rsvp","reference_display":"RSVPs","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.attending_count","label":"Flow Variables➛Attending count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"81956a5a-1969-45af-a663-aae6d7b0d09e"}}]</label_cache>
+        <master>true</master>
+        <name>Get Attending Count</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32f4af74477171104fb86285d36d43c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=32f4af74477171104fb86285d36d43c2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=32f4af74477171104fb86285d36d43c2"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2^id=32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=32f4af74477171104fb86285d36d43c2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=32f4af74477171104fb86285d36d43c2^sys_idNOT INb6f4af74477171104fb86285d36d43c2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>32f4af74477171104fb86285d36d43c2</id>
+        <name>Get Attending Count</name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:16</sys_created_on>
+        <sys_id>b6f4af74477171104fb86285d36d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b6f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=32f4af74477171104fb86285d36d43c2^sys_idNOT IN4ee6a738477171104fb86285d36d4346"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cc592436-9051-4da8-b02a-90f228fef15b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Attending Count">32f4af74477171104fb86285d36d43c2</model>
+        <model_id>32f4af74477171104fb86285d36d43c2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:50:41</sys_created_on>
+        <sys_id>4ee6a738477171104fb86285d36d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:50:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4ee6a738477171104fb86285d36d4346"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=32f4af74477171104fb86285d36d43c2^sys_idNOT IN7ef4af74477171104fb86285d36d43fc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Attending Count">32f4af74477171104fb86285d36d43c2</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>7ef4af74477171104fb86285d36d43fc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>4879fe84-fa57-4d13-b824-30dd4ce15466</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ef4af74477171104fb86285d36d43fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef4af74477171104fb86285d36d43fc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>baf4af74477171104fb86285d36d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:17</sys_updated_on>
+        <value>x_688586_wedding_rsvp</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef4af74477171104fb86285d36d43fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>f6f4af74477171104fb86285d36d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:17</sys_updated_on>
+        <value>total_attending&gt;0</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=7ef4af74477171104fb86285d36d43fc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ef4af74477171104fb86285d36d43fc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ef4af74477171104fb86285d36d43fc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=32f4af74477171104fb86285d36d43c2^sys_idNOT IN32f4af74477171104fb86285d36d43ea,3af4af74477171104fb86285d36d43ed,76f4af74477171104fb86285d36d43f1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aef4af74477171104fb86285d36d4383</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Attending Count">32f4af74477171104fb86285d36d43c2</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>32f4af74477171104fb86285d36d43ea</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>bd7cece2-c0bc-46d3-a9ac-92fa9ba4e22c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=32f4af74477171104fb86285d36d43ea"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_32f4af74477171104fb86285d36d43c2^id=32f4af74477171104fb86285d36d43ea"/>
+    <sys_element_mapping action="delete_multiple" query="id=32f4af74477171104fb86285d36d43ea"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>32f4af74477171104fb86285d36d43ea</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>72f4af74477171104fb86285d36d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{4879fe84-fa57-4d13-b824-30dd4ce15466.Records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2^id=32f4af74477171104fb86285d36d43ea"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=32f4af74477171104fb86285d36d43ea"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=32f4af74477171104fb86285d36d43ea"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2ef4af74477171104fb86285d36d4386</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Attending Count">32f4af74477171104fb86285d36d43c2</flow>
+        <flow_variable/>
+        <flow_variables_assigned>attending_count</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bd7cece2-c0bc-46d3-a9ac-92fa9ba4e22c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>3af4af74477171104fb86285d36d43ed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>b8c790f0-64df-465a-bf9d-be62f2532b70</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3af4af74477171104fb86285d36d43ed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3af4af74477171104fb86285d36d43ed</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>faf4af74477171104fb86285d36d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:17</sys_updated_on>
+        <value/>
+        <variable display_value="Attending count">f6f4af74477171104fb86285d36d43e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_32f4af74477171104fb86285d36d43c2^id=3af4af74477171104fb86285d36d43ed"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2^id=3af4af74477171104fb86285d36d43ed"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3af4af74477171104fb86285d36d43ed"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3af4af74477171104fb86285d36d43ed^sys_idNOT INfaf4af74477171104fb86285d36d43ee"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>attending_count</input_name>
+        <instance>3af4af74477171104fb86285d36d43ed</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"attending_count":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.flow_var.attending_count + fd_data._2__for_each.item.total_attending;"}}</script>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>faf4af74477171104fb86285d36d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:17</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">66f4af74477171104fb86285d36d438a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Attending Count">32f4af74477171104fb86285d36d43c2</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>output</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>76f4af74477171104fb86285d36d43f1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+        <ui_id>0fb778ce-849e-4bd3-a296-3f0c3091c4bf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=76f4af74477171104fb86285d36d43f1"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_32f4af74477171104fb86285d36d43c2^id=76f4af74477171104fb86285d36d43f1"/>
+    <sys_element_mapping action="delete_multiple" query="id=76f4af74477171104fb86285d36d43f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attending_count_message</field>
+        <id>76f4af74477171104fb86285d36d43f1</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_id>f2f4af74477171104fb86285d36d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2</table>
+        <value>{{flow_variable.attending_count}} people are attending at latest count</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>76f4af74477171104fb86285d36d43f1</id>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:50:41</sys_created_on>
+        <sys_id>cee6a738477171104fb86285d36d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:50:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2</table>
+        <value>{{flow_variable.attending_count}} people are attending at latest count</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=76f4af74477171104fb86285d36d43f1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=76f4af74477171104fb86285d36d43f1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=32f4af74477171104fb86285d36d43c2^sys_idNOT INf6f4af74477171104fb86285d36d43e5"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=81956a5a-1969-45af-a663-aae6d7b0d09e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attending_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Attending count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Attending Count">32f4af74477171104fb86285d36d43c2</model>
+        <model_id>32f4af74477171104fb86285d36d43c2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_32f4af74477171104fb86285d36d43c2</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:16</sys_created_on>
+        <sys_id>f6f4af74477171104fb86285d36d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:42:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_32f4af74477171104fb86285d36d43c2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_32f4af74477171104fb86285d36d43c2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2^sys_idNOT IN0ee6a738477171104fb86285d36d4354"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:50:41</sys_created_on>
+        <sys_id>0ee6a738477171104fb86285d36d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:50:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_32f4af74477171104fb86285d36d43c2"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>47d32bf0477171104fb86285d36d4370</sys_id>
+        <latest_snapshot>32f4af74477171104fb86285d36d43c2</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-09-13-2023_09-21-2023_1911.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=47d32bf0477171104fb86285d36d4370"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=47d32bf0477171104fb86285d36d4370^sys_idNOT IN7af4ef74477171104fb86285d36d4318"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"7af4ef74477171104fb86285d36d4318","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Get Attending Count">47d32bf0477171104fb86285d36d4370</plan_id>
+        <snapshot>8378efb8477171104fb86285d36d43c5</snapshot>
+        <sys_created_by>SapphicFire</sys_created_by>
+        <sys_created_on>2023-10-08 08:42:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7af4ef74477171104fb86285d36d4318</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>SapphicFire</sys_updated_by>
+        <sys_updated_on>2023-10-08 08:57:22</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
