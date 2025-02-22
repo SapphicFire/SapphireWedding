@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8e5151f2837b9690541f4de16daad3cf" sys_domain="global" table="sys_hub_step_ext_output" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>425151f2837b9690541f4de16daad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_step_ext_output" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">8e5151f2837b9690541f4de16daad3cf</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">ca5151f2837b9690541f4de16daad3ed</sys_ui_section>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de5191f2837b9690541f4de16daad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_step_ext_output" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">8e5151f2837b9690541f4de16daad3cf</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">465151f2837b9690541f4de16daad3f9</sys_ui_section>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e5151f2837b9690541f4de16daad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_step_ext_output" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">8e5151f2837b9690541f4de16daad3cf</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">425151f2837b9690541f4de16daad3df</sys_ui_section>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e5151f2837b9690541f4de16daad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_step_ext_output" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">8e5151f2837b9690541f4de16daad3cf</sys_ui_form>
+            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">825151f2837b9690541f4de16daad3e4</sys_ui_section>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c65151f2837b9690541f4de16daad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_step_ext_output" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">8e5151f2837b9690541f4de16daad3cf</sys_ui_form>
+            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">825151f2837b9690541f4de16daad3e9</sys_ui_section>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>565191f2837b9690541f4de16daad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_step_ext_output" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">8e5151f2837b9690541f4de16daad3cf</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_hub_step_ext_output" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">d25191f2837b9690541f4de16daad303</sys_ui_section>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_hub_step_ext_output</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>asteroid</sys_created_by>
+            <sys_created_on>2025-02-22 05:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e5151f2837b9690541f4de16daad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_hub_step_ext_output</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8e5151f2837b9690541f4de16daad3cf</sys_update_name>
+            <sys_updated_by>asteroid</sys_updated_by>
+            <sys_updated_on>2025-02-22 05:32:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

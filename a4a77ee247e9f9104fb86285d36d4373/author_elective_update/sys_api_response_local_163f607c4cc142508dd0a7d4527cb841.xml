@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local">
+    <sys_api_response_local action="DELETE">
+        <api_collection/>
+        <api_operation display_value="POST /">2e3f607c93c142500ad7bbc48aba1045</api_operation>
+        <description/>
+        <name>Generated Request for a4cee43c93c142500ad7bbc48aba101c</name>
+        <status_code>202</status_code>
+        <sys_class_name>sys_api_response_local</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 08:52:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>163f607c4cc142508dd0a7d4527cb841</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2e3f607c93c142500ad7bbc48aba1045</sys_name>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_api_response_local_163f607c4cc142508dd0a7d4527cb841</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 08:52:14</sys_updated_on>
+    </sys_api_response_local>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</application>
+        <file_path/>
+        <instance_id>6bcd6a761b837dd432182f8dee4bcb70</instance_id>
+        <instance_name>astrid</instance_name>
+        <name>sys_api_response_local_163f607c4cc142508dd0a7d4527cb841</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local"><sys_api_response_local action="INSERT_OR_UPDATE"><api_collection/><api_operation display_value="POST /">2e3f607c93c142500ad7bbc48aba1045</api_operation><description/><name>Generated Request for a4cee43c93c142500ad7bbc48aba101c</name><status_code>202</status_code><sys_class_name>sys_api_response_local</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-17 08:52:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>163f607c4cc142508dd0a7d4527cb841</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2e3f607c93c142500ad7bbc48aba1045</sys_name><sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package><sys_policy/><sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope><sys_update_name>sys_api_response_local_163f607c4cc142508dd0a7d4527cb841</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-17 08:52:14</sys_updated_on></sys_api_response_local></record_update>]]></payload>
+        <payload_hash>543903170</payload_hash>
+        <record_name>2e3f607c93c142500ad7bbc48aba1045</record_name>
+        <reverted_from/>
+        <source>27f26e6adb804210e2d1dacbd3961979</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 08:52:14</sys_created_on>
+        <sys_id>ea3f607c93c142500ad7bbc48aba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e4b9c8da80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 08:52:14</sys_updated_on>
+        <type>Local API Response</type>
+        <update_guid>ee3f607cc5c14250906f44bd1629494e</update_guid>
+        <update_guid_history>ee3f607cc5c14250906f44bd1629494e:543903170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 09:06:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_response_local">sys_api_response_local</sys_db_object>
+        <sys_id>940f71000f5f4fee9ff0d293f49edb44</sys_id>
+        <sys_metadata>163f607c4cc142508dd0a7d4527cb841</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2e3f607c93c142500ad7bbc48aba1045</sys_name>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_scope_delete display_value="">11ffeb205c2b4eecb53b8d4e7baf9a01</sys_scope_delete>
+        <sys_update_name>sys_api_response_local_163f607c4cc142508dd0a7d4527cb841</sys_update_name>
+        <sys_update_version display_value="sys_api_response_local_163f607c4cc142508dd0a7d4527cb841">ea3f607c93c142500ad7bbc48aba104f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 09:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

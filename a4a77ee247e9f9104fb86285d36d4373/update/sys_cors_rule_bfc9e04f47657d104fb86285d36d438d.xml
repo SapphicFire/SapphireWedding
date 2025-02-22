@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_cors_rule">
     <sys_cors_rule action="INSERT_OR_UPDATE">
+        <access_control_allow_credentials>true</access_control_allow_credentials>
+        <access_control_allow_headers>*</access_control_allow_headers>
+        <active>true</active>
         <delete>false</delete>
-        <domain>http://localhost:3000</domain>
+        <domain>https://*.netlify.app</domain>
         <exposed_headers/>
+        <for_embeddables>false</for_embeddables>
         <get>true</get>
         <max_age>0</max_age>
-        <name>http://localhost:3000</name>
+        <name>Netlify RSVP</name>
         <patch>false</patch>
         <post>true</post>
         <put>false</put>
+        <resource_path/>
         <rest_api>x_688586_wedding/handle_rsvp</rest_api>
         <sys_class_name>sys_cors_rule</sys_class_name>
         <sys_created_by>SapphicFire</sys_created_by>
         <sys_created_on>2023-10-02 08:35:58</sys_created_on>
         <sys_id>bfc9e04f47657d104fb86285d36d438d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>http://localhost:3000</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Netlify RSVP</sys_name>
         <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
         <sys_update_name>sys_cors_rule_bfc9e04f47657d104fb86285d36d438d</sys_update_name>
         <sys_updated_by>SapphicFire</sys_updated_by>
-        <sys_updated_on>2023-10-08 06:06:15</sys_updated_on>
+        <sys_updated_on>2024-02-02 07:58:23</sys_updated_on>
+        <use_resource_path>false</use_resource_path>
     </sys_cors_rule>
 </record_update>

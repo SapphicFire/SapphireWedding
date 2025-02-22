@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=644000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>a4836075938d06500ad7bbc48aba10ce</copied_from>
+        <copied_from_name>Add new gift idea</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>remove_a_gift_idea</internal_name>
+        <label_cache>[{"name":"2a837eb4-6a94-44c8-8692-3bddb5825024.Record","label":"1 - Look Up Record➛Gifts Record","reference":"x_688586_wedding_gifts","reference_display":"Gifts","type":"reference","base_type":"reference","usedInstances":{"72476a32-ec5e-4c07-ae4c-8c63a9134ebc":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2a837eb4-6a94-44c8-8692-3bddb5825024.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca":["condition"]},"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"flow_variable.attending_count","label":"Flow Variables➛Attending count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"81956a5a-1969-45af-a663-aae6d7b0d09e"}},{"name":"subflow.name","label":"Input➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ed9243e4-eed9-44d6-9535-21a0f713a3af":["name"],"0fb778ce-849e-4bd3-a296-3f0c3091c4bf":["output-0"],"2a837eb4-6a94-44c8-8692-3bddb5825024":["conditions"],"e5f6e5e9-bd88-4182-b33f-dbe44dd7267d":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6e81d44f-b783-4d90-9614-5a01da9e5662","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master_snapshot>3845a0f5938d06500ad7bbc48aba10fe</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Remove a gift idea</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5124ac75938d06500ad7bbc48aba102a</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Remove a gift idea</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name>sys_hub_flow_5124ac75938d06500ad7bbc48aba102a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:34</sys_updated_on>
+        <type>subflow</type>
+        <version>1</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a^id=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN5924ac75938d06500ad7bbc48aba102a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5124ac75938d06500ad7bbc48aba102a</id>
+        <name>Remove a gift idea</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:45</sys_created_on>
+        <sys_id>5924ac75938d06500ad7bbc48aba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:37:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5924ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5124ac75938d06500ad7bbc48aba102a^sys_idNOT INd124ac75938d06500ad7bbc48aba1030"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6e81d44f-b783-4d90-9614-5a01da9e5662</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</model>
+        <model_id>5124ac75938d06500ad7bbc48aba102a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5124ac75938d06500ad7bbc48aba102a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:45</sys_created_on>
+        <sys_id>d124ac75938d06500ad7bbc48aba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:37:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d124ac75938d06500ad7bbc48aba1030"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN9524ac75938d06500ad7bbc48aba1034"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cc592436-9051-4da8-b02a-90f228fef15b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</model>
+        <model_id>5124ac75938d06500ad7bbc48aba102a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:45</sys_created_on>
+        <sys_id>9524ac75938d06500ad7bbc48aba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:37:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9524ac75938d06500ad7bbc48aba1034"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN3b3420b5938d06500ad7bbc48aba1068,592520f5938d06500ad7bbc48aba1092"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:38:12</sys_created_on>
+        <sys_id>3b3420b5938d06500ad7bbc48aba1068</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 11:02:14</sys_updated_on>
+        <ui_id>2a837eb4-6a94-44c8-8692-3bddb5825024</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3b3420b5938d06500ad7bbc48aba1068"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b3420b5938d06500ad7bbc48aba1068</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:16</sys_created_on>
+        <sys_id>1725acb5938d06500ad7bbc48aba108c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:16</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b3420b5938d06500ad7bbc48aba1068</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:16</sys_created_on>
+        <sys_id>5f25acb5938d06500ad7bbc48aba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:16</sys_updated_on>
+        <value>error</value>
+        <variable display_value="If multiple records are found action">1909f99587003300663ca1bb36cb0bb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b3420b5938d06500ad7bbc48aba1068</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:16</sys_created_on>
+        <sys_id>d725acb5938d06500ad7bbc48aba108c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:16</sys_updated_on>
+        <value>x_688586_wedding_gifts</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3b3420b5938d06500ad7bbc48aba1068"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>3b3420b5938d06500ad7bbc48aba1068</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:15</sys_created_on>
+        <sys_id>1b25acb5938d06500ad7bbc48aba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{subflow.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>if_multiple_records_are_found_action</field>
+        <id>3b3420b5938d06500ad7bbc48aba1068</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:15</sys_created_on>
+        <sys_id>9325acb5938d06500ad7bbc48aba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>3b3420b5938d06500ad7bbc48aba1068</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:16</sys_created_on>
+        <sys_id>db25acb5938d06500ad7bbc48aba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>3b3420b5938d06500ad7bbc48aba1068</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:15</sys_created_on>
+        <sys_id>5725acb5938d06500ad7bbc48aba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3b3420b5938d06500ad7bbc48aba1068"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3b3420b5938d06500ad7bbc48aba1068"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>4b97d5ce-8e2e-43e4-8fe1-d7c370be3ceb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:08</sys_created_on>
+        <sys_id>592520f5938d06500ad7bbc48aba1092</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 11:02:14</sys_updated_on>
+        <ui_id>72476a32-ec5e-4c07-ae4c-8c63a9134ebc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=592520f5938d06500ad7bbc48aba1092"/>
+    <sys_element_mapping action="delete_multiple" query="id=592520f5938d06500ad7bbc48aba1092"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>592520f5938d06500ad7bbc48aba1092</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:16</sys_created_on>
+        <sys_id>df2560f5938d06500ad7bbc48aba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{2a837eb4-6a94-44c8-8692-3bddb5825024.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=592520f5938d06500ad7bbc48aba1092"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=592520f5938d06500ad7bbc48aba1092"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN49c4a0b5938d06500ad7bbc48aba107d,9d24ac75938d06500ad7bbc48aba1038,b254a0b5938d06500ad7bbc48aba1046,e8f42cb5938d06500ad7bbc48aba10e7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ac45a0f5938d06500ad7bbc48aba10a9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>output</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:40:28</sys_created_on>
+        <sys_id>49c4a0b5938d06500ad7bbc48aba107d</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>e5f6e5e9-bd88-4182-b33f-dbe44dd7267d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=49c4a0b5938d06500ad7bbc48aba107d"/>
+    <sys_element_mapping action="delete_multiple" query="id=49c4a0b5938d06500ad7bbc48aba107d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>49c4a0b5938d06500ad7bbc48aba107d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:41:09</sys_created_on>
+        <sys_id>07e42cb5938d06500ad7bbc48aba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:41:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a</table>
+        <value>No gift named '{{subflow.name}}' could be found. This must be an exact match.</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=49c4a0b5938d06500ad7bbc48aba107d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=49c4a0b5938d06500ad7bbc48aba107d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b8836075938d06500ad7bbc48aba10ed</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned>output</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>4b97d5ce-8e2e-43e4-8fe1-d7c370be3ceb</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:46</sys_created_on>
+        <sys_id>9d24ac75938d06500ad7bbc48aba1038</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>0fb778ce-849e-4bd3-a296-3f0c3091c4bf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9d24ac75938d06500ad7bbc48aba1038"/>
+    <sys_element_mapping action="delete_multiple" query="id=9d24ac75938d06500ad7bbc48aba1038"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>9d24ac75938d06500ad7bbc48aba1038</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:46</sys_created_on>
+        <sys_id>1124ac75938d06500ad7bbc48aba1048</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a</table>
+        <value>{{subflow.name}} has been removed from the gift list.</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9d24ac75938d06500ad7bbc48aba1038"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9d24ac75938d06500ad7bbc48aba1038"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e045a0f5938d06500ad7bbc48aba10a5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:38:40</sys_created_on>
+        <sys_id>b254a0b5938d06500ad7bbc48aba1046</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b254a0b5938d06500ad7bbc48aba1046"/>
+    <sys_element_mapping action="delete_multiple" query="id=b254a0b5938d06500ad7bbc48aba1046"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b254a0b5938d06500ad7bbc48aba1046</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:40:22</sys_created_on>
+        <sys_id>6bb460b5938d06500ad7bbc48aba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:40:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{2a837eb4-6a94-44c8-8692-3bddb5825024.status}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a^id=b254a0b5938d06500ad7bbc48aba1046"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b254a0b5938d06500ad7bbc48aba1046"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b254a0b5938d06500ad7bbc48aba1046"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a045a0f5938d06500ad7bbc48aba10ae</block>
+        <comment/>
+        <connected_to>8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:41:15</sys_created_on>
+        <sys_id>e8f42cb5938d06500ad7bbc48aba10e7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>4b97d5ce-8e2e-43e4-8fe1-d7c370be3ceb</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e8f42cb5938d06500ad7bbc48aba10e7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a^id=e8f42cb5938d06500ad7bbc48aba10e7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e8f42cb5938d06500ad7bbc48aba10e7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e8f42cb5938d06500ad7bbc48aba10e7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN9924ac75938d06500ad7bbc48aba1032"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <help/>
+        <hint/>
+        <label>Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5124ac75938d06500ad7bbc48aba102a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:45</sys_created_on>
+        <sys_id>9924ac75938d06500ad7bbc48aba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:37:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN5d24ac75938d06500ad7bbc48aba1036"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:37:46</sys_created_on>
+        <sys_id>5d24ac75938d06500ad7bbc48aba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:37:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=149000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>a4836075938d06500ad7bbc48aba10ce</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>remove_a_gift_idea</internal_name>
+        <label_cache>[{"name":"2a837eb4-6a94-44c8-8692-3bddb5825024.Record","label":"1 - Look Up Record➛Gifts Record","reference":"x_688586_wedding_gifts","reference_display":"Gifts","type":"reference","base_type":"reference","usedInstances":{"72476a32-ec5e-4c07-ae4c-8c63a9134ebc":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2a837eb4-6a94-44c8-8692-3bddb5825024.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca":["condition"]},"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"flow_variable.attending_count","label":"Flow Variables➛Attending count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"81956a5a-1969-45af-a663-aae6d7b0d09e"}},{"name":"subflow.name","label":"Input➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ed9243e4-eed9-44d6-9535-21a0f713a3af":["name"],"0fb778ce-849e-4bd3-a296-3f0c3091c4bf":["output-0"],"2a837eb4-6a94-44c8-8692-3bddb5825024":["conditions"],"e5f6e5e9-bd88-4182-b33f-dbe44dd7267d":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6e81d44f-b783-4d90-9614-5a01da9e5662","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master>true</master>
+        <name>Remove a gift idea</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3845a0f5938d06500ad7bbc48aba10fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <type>subflow</type>
+        <version>1</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe^id=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT IN7045a0f5938d06500ad7bbc48aba10ff"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3845a0f5938d06500ad7bbc48aba10fe</id>
+        <name>Remove a gift idea</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>7045a0f5938d06500ad7bbc48aba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7045a0f5938d06500ad7bbc48aba10ff"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT IN7445e0f5938d06500ad7bbc48aba1000"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6e81d44f-b783-4d90-9614-5a01da9e5662</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</model>
+        <model_id>3845a0f5938d06500ad7bbc48aba10fe</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3845a0f5938d06500ad7bbc48aba10fe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>7445e0f5938d06500ad7bbc48aba1000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7445e0f5938d06500ad7bbc48aba1000"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT INb445e0f5938d06500ad7bbc48aba1011"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cc592436-9051-4da8-b02a-90f228fef15b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</model>
+        <model_id>3845a0f5938d06500ad7bbc48aba10fe</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>b445e0f5938d06500ad7bbc48aba1011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b445e0f5938d06500ad7bbc48aba1011"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT IN0d45e0f5938d06500ad7bbc48aba1035,4145e0f5938d06500ad7bbc48aba102f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>4b97d5ce-8e2e-43e4-8fe1-d7c370be3ceb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>0d45e0f5938d06500ad7bbc48aba1035</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>72476a32-ec5e-4c07-ae4c-8c63a9134ebc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d45e0f5938d06500ad7bbc48aba1035"/>
+    <sys_element_mapping action="delete_multiple" query="id=0d45e0f5938d06500ad7bbc48aba1035"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0d45e0f5938d06500ad7bbc48aba1035</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>c945e0f5938d06500ad7bbc48aba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{2a837eb4-6a94-44c8-8692-3bddb5825024.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d45e0f5938d06500ad7bbc48aba1035"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d45e0f5938d06500ad7bbc48aba1035"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>4145e0f5938d06500ad7bbc48aba102f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>2a837eb4-6a94-44c8-8692-3bddb5825024</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4145e0f5938d06500ad7bbc48aba102f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4145e0f5938d06500ad7bbc48aba102f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>4945e0f5938d06500ad7bbc48aba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <value>x_688586_wedding_gifts</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4145e0f5938d06500ad7bbc48aba102f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>8545e0f5938d06500ad7bbc48aba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4145e0f5938d06500ad7bbc48aba102f</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>c145e0f5938d06500ad7bbc48aba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <value>error</value>
+        <variable display_value="If multiple records are found action">1909f99587003300663ca1bb36cb0bb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4145e0f5938d06500ad7bbc48aba102f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4145e0f5938d06500ad7bbc48aba102f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>8d45e0f5938d06500ad7bbc48aba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{subflow.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>if_multiple_records_are_found_action</field>
+        <id>4145e0f5938d06500ad7bbc48aba102f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>0945e0f5938d06500ad7bbc48aba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4145e0f5938d06500ad7bbc48aba102f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>4145e0f5938d06500ad7bbc48aba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>4145e0f5938d06500ad7bbc48aba102f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_id>c945e0f5938d06500ad7bbc48aba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4145e0f5938d06500ad7bbc48aba102f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4145e0f5938d06500ad7bbc48aba102f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT IN7845e0f5938d06500ad7bbc48aba101e,b845e0f5938d06500ad7bbc48aba1024,fc45e0f5938d06500ad7bbc48aba101a,fc45e0f5938d06500ad7bbc48aba1021"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ac45a0f5938d06500ad7bbc48aba10a9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>output</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>7845e0f5938d06500ad7bbc48aba101e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>e5f6e5e9-bd88-4182-b33f-dbe44dd7267d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7845e0f5938d06500ad7bbc48aba101e"/>
+    <sys_element_mapping action="delete_multiple" query="id=7845e0f5938d06500ad7bbc48aba101e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>7845e0f5938d06500ad7bbc48aba101e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>b445e0f5938d06500ad7bbc48aba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe</table>
+        <value>No gift named '{{subflow.name}}' could be found. This must be an exact match.</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7845e0f5938d06500ad7bbc48aba101e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7845e0f5938d06500ad7bbc48aba101e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b8836075938d06500ad7bbc48aba10ed</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned>output</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>4b97d5ce-8e2e-43e4-8fe1-d7c370be3ceb</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>b845e0f5938d06500ad7bbc48aba1024</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>0fb778ce-849e-4bd3-a296-3f0c3091c4bf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b845e0f5938d06500ad7bbc48aba1024"/>
+    <sys_element_mapping action="delete_multiple" query="id=b845e0f5938d06500ad7bbc48aba1024"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>b845e0f5938d06500ad7bbc48aba1024</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>fc45e0f5938d06500ad7bbc48aba1026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe</table>
+        <value>{{subflow.name}} has been removed from the gift list.</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b845e0f5938d06500ad7bbc48aba1024"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b845e0f5938d06500ad7bbc48aba1024"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e045a0f5938d06500ad7bbc48aba10a5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>fc45e0f5938d06500ad7bbc48aba101a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fc45e0f5938d06500ad7bbc48aba101a"/>
+    <sys_element_mapping action="delete_multiple" query="id=fc45e0f5938d06500ad7bbc48aba101a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fc45e0f5938d06500ad7bbc48aba101a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>3045e0f5938d06500ad7bbc48aba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{2a837eb4-6a94-44c8-8692-3bddb5825024.status}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe^id=fc45e0f5938d06500ad7bbc48aba101a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fc45e0f5938d06500ad7bbc48aba101a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc45e0f5938d06500ad7bbc48aba101a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a045a0f5938d06500ad7bbc48aba10ae</block>
+        <comment/>
+        <connected_to>8d86d8aa-f4b6-4a17-b760-bb6b9f2405ca</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Remove a gift idea">3845a0f5938d06500ad7bbc48aba10fe</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>fc45e0f5938d06500ad7bbc48aba1021</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+        <ui_id>4b97d5ce-8e2e-43e4-8fe1-d7c370be3ceb</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fc45e0f5938d06500ad7bbc48aba1021"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe^id=fc45e0f5938d06500ad7bbc48aba1021"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fc45e0f5938d06500ad7bbc48aba1021"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc45e0f5938d06500ad7bbc48aba1021"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT IN3045e0f5938d06500ad7bbc48aba100d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <help/>
+        <hint/>
+        <label>Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3845a0f5938d06500ad7bbc48aba10fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>3045e0f5938d06500ad7bbc48aba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe^sys_idNOT IN7c45e0f5938d06500ad7bbc48aba1015"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:38</sys_created_on>
+        <sys_id>7c45e0f5938d06500ad7bbc48aba1015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sapphire Wedding" source="x_688586_wedding">a4a77ee247e9f9104fb86285d36d4373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sapphire Wedding">a4a77ee247e9f9104fb86285d36d4373</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:42:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3845a0f5938d06500ad7bbc48aba10fe"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>5124ac75938d06500ad7bbc48aba102a</sys_id>
+        <latest_snapshot>3845a0f5938d06500ad7bbc48aba10fe</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-01-17-2024_01-25-2024_1625.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5124ac75938d06500ad7bbc48aba102a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5124ac75938d06500ad7bbc48aba102a^sys_idNOT IN8545e0f5938d06500ad7bbc48aba104c"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"8545e0f5938d06500ad7bbc48aba104c","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Remove a gift idea">5124ac75938d06500ad7bbc48aba102a</plan_id>
+        <snapshot>77b9683d938d06500ad7bbc48aba1072</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 10:42:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8545e0f5938d06500ad7bbc48aba104c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 10:48:31</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
